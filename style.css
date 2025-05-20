@@ -17,7 +17,6 @@ html, body {
     width: 100vw;
     position: fixed;
     top: 0;
-
     box-shadow: 0 0 0 rgba(0, 0, 0, 0);
     transition: box-shadow 0.3s ease-in-out;
 }
@@ -33,7 +32,21 @@ html, body {
     font-family: cursive;
 }
 .name_header h4 {
-    padding-right: 10px;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 16px;
+    margin-right: 32px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 300ms ease-out;
+    box-shadow: 0 8px 8px #000;
+}
+.name_header h4:hover {
+    transform: scale(1.04);
+}
+.name_header h4:active {
+    background-color: rgb(111, 153, 128);
+    transform: scale(0.94);
 }
 
 .name_header a {
@@ -46,9 +59,6 @@ html, body {
     transition: transform 0.2s ease-in-out;
 }
 
-.name_header a:hover {
-    transform: scale(1.1);
-}
 
 .profile {
     display: flex;
