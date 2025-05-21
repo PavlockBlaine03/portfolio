@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: #f4f4eb;
 }
 
 * {
@@ -13,12 +14,13 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(131, 173, 148);
+    background: linear-gradient(#648b74, #a5dab4);
     width: 100vw;
     position: fixed;
     top: 0;
     box-shadow: 0 0 0 rgba(0, 0, 0, 0);
     transition: box-shadow 0.3s ease-in-out;
+    z-index: 10;
 }
 
 .name_header:hover {
