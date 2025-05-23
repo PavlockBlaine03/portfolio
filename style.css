@@ -194,3 +194,12 @@ html, body {
     text-decoration: none;
     color:#000;
 }
+#github:hover {
+    border: 1px solid black;
+    border-radius: 6px;
+}
+#linkedin:hover {
+    border: 1px solid black;
+    border-radius: 6px;
+
+}
