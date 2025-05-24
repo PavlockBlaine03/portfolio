@@ -99,8 +99,8 @@ html, body {
 
 }
 
-.projects {
-    padding: 20px;
+.containers {
+    padding: 40px 20px;
     text-align: center;
 }
 .project-grid {
@@ -148,10 +148,6 @@ html, body {
     font-size: 1.1rem;
     padding: 12px;
 }
-.skills {
-    text-align: center;
-    padding: 40px 20px;
-}
 
 .skills-level table {
     width: 100%;
@@ -190,10 +186,6 @@ html, body {
 .skills-level tr:hover {
     background-color: #e0e0d1;
     transition: background-color 0.2s ease-in-out;
-}
-.contact {
-    padding: 20px;
-    text-align: center;
 }
 .contact-card {
     background-color: rgb(131, 173, 148);
